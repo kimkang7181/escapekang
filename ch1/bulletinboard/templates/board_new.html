@@ -5,7 +5,7 @@
 <form method="post" action="">
     {% csrf_token %}
     제목: {{ form.title }} 작성자: {{ form.writer}}<br/>
-    비밀글: {{ form.secret }} 비밀번호 {{ form.password }} <br/>
+    비밀글: {{ form.secret }} 비밀번호 {{ form.password }} <br/> <!-- 바뀌부분 비밀번호 -->
     {{ form.text }}
     <br/>
     <button type="submit">작성</button>

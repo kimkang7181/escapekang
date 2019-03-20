@@ -4,7 +4,7 @@ from froala_editor.fields import FroalaField
 from django.utils import timezone
 
 # Create your models here.
-
+#바뀐 팝업
 
 class Popup(models.Model):
     title = models.CharField(max_length=50)

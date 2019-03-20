@@ -70,5 +70,4 @@ def board_new(request):
         'info': info,
     })
 
-def board_rock(request):
     

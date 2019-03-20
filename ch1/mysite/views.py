@@ -7,7 +7,7 @@ from theme.models import Theme
 from .models import Popup
 
 
-
+#팝업 뷰 바뀐부분
 def main(request):
     theme = Theme.objects.all()
     info = Information.objects.all()

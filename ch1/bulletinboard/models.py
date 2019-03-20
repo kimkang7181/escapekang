@@ -13,7 +13,7 @@ class Bulletinboard(models.Model):
                 blank=True, null=True)
         secret = models.BooleanField()
         password = models.CharField(max_length=20,)
-        
+        #패쓰워드 바뀐부분
 
         def publish(self):
                 self.published_date = timezone.now()
