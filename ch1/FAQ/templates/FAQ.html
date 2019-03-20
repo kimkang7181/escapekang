@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div style="background-color:rgb(255, 247, 231)">
+    {% for i in FAQ_list %}
+    <p>{{ i.title }}</p>
+
+    <p >{{ i.text|safe }}<br/><br/></p> <!-- 내용 -->
+    {% endfor %}
+</div>
+{% endblock %}
